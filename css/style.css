@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Oswald:wght@200..700&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Protest+Strike&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+:root{
+    --bg-green:#abd373 ;
+}
+
+.text-green{
+    color: #abd373;
+}
+.bg-green{
+    background: var(--bg-green);
+}
+h2{
+    font-size: 50px;
+}
+.demo1{
+    font-size: 40px;
+}
+h1{
+    font-size: 100px;
+}
+.demo2{
+    height: 80vh;
+}
+
+@media(max-width:768px){
+
+    .carousel-caption {
+        position: absolute;
+        right: 10%;
+        bottom: 1%;
+        left: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .s1{
+        height: 200px;
+    }
+    
+}
+
+@media(max-width:320px){
+
+    .carousel-caption {
+        position: absolute;
+        right: 10%;
+        bottom: 1%;
+        left: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .s1{
+        height: 230px;
+        padding: 2%;
+    }
+    .s2{
+        height: 300px;
+    }
+    
+}
+
+@media(max-width:1024px){
+
+    .carousel-caption {
+        position: absolute;
+        right: 10%;
+        bottom: 1%;
+        left: 50%;
+        padding-top: 1.25rem;
+        padding-bottom: 1.25rem;
+        color: #fff;
+    }
+    h1{
+        font-size: 50px;
+    }
+    
+}
+
+.button {
+    display: inline-block;
+    padding: 0.75rem 1.25rem;
+    border-radius: 10rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.15rem;
+    transition: all 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    text-decoration: none;
+  }
+  .button:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #abd373;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  .button:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #008fb3;
+    transition: all 0.3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  .button:hover {
+    color: #fff;
+  }
+  .button:hover:before {
+    width: 100%;
+  }
+  
+
+
+  @import url(https://fonts.googleapis.com/css?family=Raleway:400,500,800);
+.snip1226 {
+  font-family: 'Raleway', Arial, sans-serif;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.snip1226 * {
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: 0 1.5em;
+  overflow: hidden;
+}
+.snip1226 a {
+  padding: 0.3em 0;
+  color: rgba(255, 255, 255, 0.5);
+  position: relative;
+  display: inline-block;
+  letter-spacing: 1px;
+  margin: 0;
+  text-decoration: none;
+}
+.snip1226 a:before,
+.snip1226 a:after {
+  position: absolute;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.snip1226 a:before {
+  bottom: 100%;
+  display: block;
+  height: 3px;
+  width: 100%;
+  content: "";
+  background-color: white;
+}
+.snip1226 a:after {
+  padding: 0.3em 0;
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  content: attr(data-hover);
+  color: white;
+  white-space: nowrap;
+}
+.snip1226 li:hover a,
+.snip1226 .current a {
+  transform: translateY(100%);
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.snip1519 {
+  font-family: 'Roboto', Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border-top: 5px solid #abd373;
+  color: #9e9e9e;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+
+.snip1519 *,
+.snip1519 *:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
+}
+
+.snip1519 figcaption {
+  padding: 12% 10% 14%;
+}
+
+.snip1519 i {
+  font-size: 54px;
+  color: #fff;
+  width: 80px;
+  line-height: 80px;
+  background-color: #d2652d;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0 0 10px;
+  text-align: center;
+  display: inline-block;
+}
+
+.snip1519 h3 {
+  color: #3c3c3c;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  margin: 10px 0;
+}
+
+.snip1519 p {
+  font-size: 0.9em;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+
+.snip1519 .button {
+  text-decoration: none;
+  color: #777;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  padding: 5px 10px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+}
+
+.snip1519 .button:before {
+  background-color: #d2652d;
+  position: absolute;
+  top: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  z-index: -1;
+  opacity: 0;
+}
+
+.snip1519 .button:hover {
+  color: #fff;
+}
+
+.snip1519 .button:hover:before {
+  top: 0;
+  opacity: 1;
+}
